@@ -5,6 +5,10 @@
   "repository": "https://github.com/MatheusKindrazki/ssr-nodejs.git",
   "author": "Matheus Kindrazki <matheuskindrazki@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "build": "sucrase ./src -d ./dist --transforms imports"
+  },
   "devDependencies": {
     "nodemon": "^2.0.2"
   },
