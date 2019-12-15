@@ -1,0 +1,14 @@
+{
+  "name": "ssr-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/MatheusKindrazki/ssr-nodejs.git",
+  "author": "Matheus Kindrazki <matheuskindrazki@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "sucrase": "^3.10.1"
+  }
+}
